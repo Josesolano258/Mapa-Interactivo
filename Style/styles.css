@@ -1,0 +1,45 @@
+/* Estilo general */
+body {
+    background-color: #335571;
+    color: #FFFFFF;
+    margin: auto;
+    padding: 45px;
+    text-align: center;
+}
+
+
+/* Menú fijo arriba */
+.top-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.top-menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-menu ul li {
+    margin: 0 10px;
+}
+
+.top-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: background 0.3s;
+}
+
+/* Efecto hover del menú */
+.top-menu ul li a:hover {
+    background-color: #555;
+}
