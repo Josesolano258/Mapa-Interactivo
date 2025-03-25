@@ -1,20 +1,20 @@
 /* Estilo general */
 body {
-    background-color: #335571;
-    color: #FFFFFF;
-    margin: auto;
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    margin: 0;
     padding: 45px;
     text-align: center;
+    font-family: 'Arial', sans-serif;
 }
 
-
-/* Menú fijo arriba */
+/* Menu fijo arriba */
 .top-menu {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #34495E;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     z-index: 1000;
 }
@@ -32,14 +32,66 @@ body {
 }
 
 .top-menu ul li a {
-    color: #fff;
+    color: #ECF0F1;
     text-decoration: none;
     padding: 15px 20px;
     display: block;
     transition: background 0.3s;
 }
 
-/* Efecto hover del menú */
 .top-menu ul li a:hover {
-    background-color: #555;
+    background-color: #1ABC9C;
 }
+
+/* Contenedor principal */
+.container {
+    margin-top: 60px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* Sección de imagen */
+.image-section img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #34495E;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para cada bloque de info */
+.info-section {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Titulos */
+h1 {
+    color: #1ABC9C;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    color: #E74C3C;
+    text-align: center;
+}
+
+/* Parrafos */
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* Pie de página */
+footer {
+    background-color: #34495E;
+    color: #ECF0F1;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
